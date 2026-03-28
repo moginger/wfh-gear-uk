@@ -89,10 +89,10 @@ table.product-table{width:100%;border-collapse:collapse;font-size:14px}
 .product-table a:hover{text-decoration:underline}
 .prod-section{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:28px;box-shadow:var(--shadow)}
 .prod-section:hover{box-shadow:var(--shadow-lg)}
-.prod-header{display:grid;grid-template-columns:220px 1fr;gap:0}
+.prod-header{display:grid;grid-template-columns:220px 1fr;gap:0;align-items:stretch}
 @media(max-width:600px){.prod-header{grid-template-columns:1fr}}
-.prod-img-wrap{background:#f3f4f6;position:relative}
-.prod-img-wrap img{width:100%;height:200px;object-fit:cover;display:block}
+.prod-img-wrap{background:#f3f4f6;position:relative;display:flex;align-items:stretch}
+.prod-img-wrap img{width:100%;height:100%;min-height:180px;max-height:320px;object-fit:cover;display:block}
 .prod-rank{position:absolute;top:10px;left:10px;background:var(--ink);color:#fff;font-size:11px;font-weight:800;padding:4px 10px;border-radius:50px;letter-spacing:.5px}
 .prod-info{padding:22px 24px}
 .prod-badge-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
@@ -255,7 +255,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&q=80&auto=format&fit=crop" alt="Sihoo M18 ergonomic mesh office chair UK" loading="lazy">
+        <img src="https://picsum.photos/id/2306/500/400" alt="Sihoo M18 ergonomic mesh office chair UK" loading="lazy">
         <span class="prod-rank">#1 Top Pick</span>
       </div>
       <div class="prod-info">
@@ -304,7 +304,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1541558869434-2840d308329a?w=500&q=80&auto=format&fit=crop" alt="Sihoo M57 office chair" loading="lazy">
+        <img src="https://picsum.photos/id/380/500/400" alt="Sihoo M57 office chair" loading="lazy">
         <span class="prod-rank">#2</span>
       </div>
       <div class="prod-info">
@@ -348,7 +348,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&q=80&auto=format&fit=crop" alt="Boulies EP200 home office chair" loading="lazy">
+        <img src="https://picsum.photos/id/267/500/400" alt="Boulies EP200 home office chair" loading="lazy">
         <span class="prod-rank">#3</span>
       </div>
       <div class="prod-info">
@@ -392,7 +392,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&q=80&auto=format&fit=crop" alt="Yaheetech budget ergonomic mesh chair" loading="lazy">
+        <img src="https://picsum.photos/id/1029/500/400" alt="Yaheetech budget ergonomic mesh chair" loading="lazy">
         <span class="prod-rank">#4</span>
       </div>
       <div class="prod-info">
@@ -495,7 +495,7 @@ aside{position:sticky;top:80px}
   <div class="sidebar-box">
     <div class="sidebar-title">⭐ Top 3 Quick Buy</div>
     <div class="sidebar-prod">
-      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=150&q=70&auto=format&fit=crop" alt="Sihoo M18" class="sp-img" loading="lazy">
+      <img src="https://picsum.photos/id/2306/150/400" alt="Sihoo M18" class="sp-img" loading="lazy">
       <div>
         <div class="sp-name">Sihoo M18 — #1 Pick</div>
         <div class="sp-price">~£159</div>
@@ -503,7 +503,7 @@ aside{position:sticky;top:80px}
       </div>
     </div>
     <div class="sidebar-prod">
-      <img src="https://images.unsplash.com/photo-1541558869434-2840d308329a?w=150&q=70&auto=format&fit=crop" alt="Sihoo M57" class="sp-img" loading="lazy">
+      <img src="https://picsum.photos/id/380/150/400" alt="Sihoo M57" class="sp-img" loading="lazy">
       <div>
         <div class="sp-name">Sihoo M57 — Step-Up</div>
         <div class="sp-price">~£229</div>
@@ -511,7 +511,7 @@ aside{position:sticky;top:80px}
       </div>
     </div>
     <div class="sidebar-prod">
-      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=150&q=70&auto=format&fit=crop" alt="Boulies EP200" class="sp-img" loading="lazy">
+      <img src="https://picsum.photos/id/267/150/400" alt="Boulies EP200" class="sp-img" loading="lazy">
       <div>
         <div class="sp-name">Boulies EP200</div>
         <div class="sp-price">~£199</div>
