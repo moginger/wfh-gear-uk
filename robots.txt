@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moginger.github.io/wfh-gear-uk/sitemap.xml
