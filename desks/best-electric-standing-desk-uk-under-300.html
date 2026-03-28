@@ -87,10 +87,10 @@ table.product-table{width:100%;border-collapse:collapse;font-size:14px}
 .product-table tr.winner td:first-child{font-weight:700;color:var(--blue)}
 .product-table a{color:var(--blue);font-weight:700;text-decoration:none}
 .prod-section{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:28px;box-shadow:var(--shadow)}
-.prod-header{display:grid;grid-template-columns:240px 1fr}
+.prod-header{display:grid;grid-template-columns:240px 1fr;align-items:stretch}
 @media(max-width:600px){.prod-header{grid-template-columns:1fr}}
-.prod-img-wrap{background:#f3f4f6;position:relative}
-.prod-img-wrap img{width:100%;height:210px;object-fit:cover;display:block}
+.prod-img-wrap{background:#f3f4f6;position:relative;display:flex;align-items:stretch}
+.prod-img-wrap img{width:100%;height:100%;min-height:180px;max-height:320px;object-fit:cover;display:block}
 .prod-rank{position:absolute;top:10px;left:10px;background:var(--ink);color:#fff;font-size:11px;font-weight:800;padding:4px 10px;border-radius:50px;letter-spacing:.5px}
 .prod-info{padding:22px 24px}
 .prod-badge-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
@@ -257,7 +257,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80&auto=format&fit=crop" alt="FlexiSpot E7 electric standing desk home office UK" loading="lazy">
+        <img src="https://picsum.photos/id/1181/600/400" alt="FlexiSpot E7 electric standing desk home office UK" loading="lazy">
         <span class="prod-rank">#1 Top Pick</span>
       </div>
       <div class="prod-info">
@@ -312,7 +312,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80&auto=format&fit=crop" alt="FlexiSpot E6 Max standing desk" loading="lazy">
+        <img src="https://picsum.photos/id/442/600/400" alt="FlexiSpot E6 Max standing desk" loading="lazy">
         <span class="prod-rank">#2</span>
       </div>
       <div class="prod-info">
@@ -361,7 +361,7 @@ aside{position:sticky;top:80px}
   <div class="prod-section">
     <div class="prod-header">
       <div class="prod-img-wrap">
-        <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80&auto=format&fit=crop" alt="FlexiSpot E1 Plus budget standing desk" loading="lazy">
+        <img src="https://picsum.photos/id/380/600/400" alt="FlexiSpot E1 Plus budget standing desk" loading="lazy">
         <span class="prod-rank">#3</span>
       </div>
       <div class="prod-info">
@@ -465,7 +465,7 @@ aside{position:sticky;top:80px}
   <div class="sidebar-box">
     <div class="sidebar-title">⭐ Top 3 Quick Buy</div>
     <div class="sidebar-prod">
-      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=150&q=70&auto=format&fit=crop" alt="FlexiSpot E7" class="sp-img" loading="lazy">
+      <img src="https://picsum.photos/id/1181/150/400" alt="FlexiSpot E7" class="sp-img" loading="lazy">
       <div>
         <div class="sp-name">FlexiSpot E7 — #1 Pick</div>
         <div class="sp-price">~£299</div>
@@ -473,7 +473,7 @@ aside{position:sticky;top:80px}
       </div>
     </div>
     <div class="sidebar-prod">
-      <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=150&q=70&auto=format&fit=crop" alt="FlexiSpot E6 Max" class="sp-img" loading="lazy">
+      <img src="https://picsum.photos/id/442/150/400" alt="FlexiSpot E6 Max" class="sp-img" loading="lazy">
       <div>
         <div class="sp-name">FlexiSpot E6 Max</div>
         <div class="sp-price">~£229</div>
@@ -481,7 +481,7 @@ aside{position:sticky;top:80px}
       </div>
     </div>
     <div class="sidebar-prod">
-      <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=150&q=70&auto=format&fit=crop" alt="FlexiSpot E1 Plus" class="sp-img" loading="lazy">
+      <img src="https://picsum.photos/id/380/150/400" alt="FlexiSpot E1 Plus" class="sp-img" loading="lazy">
       <div>
         <div class="sp-name">FlexiSpot E1 Plus</div>
         <div class="sp-price">~£140</div>
